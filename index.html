@@ -1,27 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <!-- You can include additional meta tags, stylesheets, or scripts in the head section -->
-</head>
-<body>
+import React from 'react';
+import './App.css';
 
-    <header>
-        <h1>Welcome to Your Website</h1>
-        <!-- You can add navigation links, logos, or other header content here -->
-    </header>
+function App() {
+ return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Welcome to My Data Analyst Portfolio</h1>
+      </header>
+      <section className="content">
+        <h2>About Me</h2>
+        <p>I am a highly skilled data analyst with expertise in SQL, Python, and data visualization tools like Tableau and Power BI. With a background in business and marketing, I am proficient in interpreting data to inform strategic decision-making. My technical skills are complemented by a strong understanding of business operations, which allows me to bridge the gap between management and technology.</p>
+        <h2>Projects</h2>
+        <ul>
+          <li>Customer Segmentation and Targeting</li>
+          <li>Market Basket Analysis</li>
+          <li>Forecasting and Time Series Analysis</li>
+          <li>Churn Prediction and Customer Retention</li>
+        </ul>
+        <h2>Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Tableau</li>
+          <li>Power BI</li>
+          <li>Machine Learning</li>
+        </ul>
+      </section>
+    </div>
+ );
+}
 
-    <main>
-        <p>This is the main content of your page.</p>
-        <!-- Add more content such as paragraphs, images, etc. within the main section -->
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-        <!-- You can include footer content, copyright information, or links here -->
-    </footer>
-
-</body>
-</html>
+export default App;
